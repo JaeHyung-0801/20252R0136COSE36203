@@ -24,3 +24,10 @@ classification performance using classical machine learning models.
 - Spectral features (centroid, bandwidth, rolloff)
 - Zero-crossing rate
 - Chroma and harmony statistics when available
+
+## Feature Selection
+We select features that are known to be effective for music genre classification:
+- MFCC (1–13): timbre-related information
+- Spectral features: centroid, bandwidth, rolloff
+- Zero Crossing Rate: rhythmic/noise characteristics
+
