@@ -31,3 +31,9 @@ We select features that are known to be effective for music genre classification
 - Spectral features: centroid, bandwidth, rolloff
 - Zero Crossing Rate: rhythmic/noise characteristics
 
+## Exploratory Data Analysis (EDA)
+EDA is performed to:
+- Inspect feature distributions across genres
+- Identify discriminative features
+- Validate preprocessing before model training
+
