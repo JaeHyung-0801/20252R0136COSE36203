@@ -41,3 +41,7 @@ EDA is performed to:
 To prevent data leakage, we split data at the song level rather than the segment level.
 Segments from the same song are never shared between training and test sets.
 
+## Sub-Genre Clustering
+KMeans clustering is used to discover acoustic sub-genres within the dataset.
+Some clusters align well with genre labels, while others show mixed characteristics.
+
