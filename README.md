@@ -12,3 +12,15 @@ classification performance using classical machine learning models.
 - Feature engineering
 - Train-test split with leakage prevention
 - Model training and evaluation
+
+## Dataset
+- GTZAN music genre dataset
+- Audio is segmented into 3-second clips
+- Pre-extracted features are stored as CSV files
+- Main experiments use `features_3_sec.csv` due to larger sample size
+
+## Audio Features
+- MFCC (1–13): timbre-related features
+- Spectral features (centroid, bandwidth, rolloff)
+- Zero-crossing rate
+- Chroma and harmony statistics when available
