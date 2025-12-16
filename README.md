@@ -45,3 +45,6 @@ Segments from the same song are never shared between training and test sets.
 KMeans clustering is used to discover acoustic sub-genres within the dataset.
 Some clusters align well with genre labels, while others show mixed characteristics.
 
+## Limitations and Future Work
+- Limited rhythmic features reduce performance
+- Future work includes CNN-based models using raw audio
