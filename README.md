@@ -37,3 +37,7 @@ EDA is performed to:
 - Identify discriminative features
 - Validate preprocessing before model training
 
+## Train-Test Split and Leakage Prevention
+To prevent data leakage, we split data at the song level rather than the segment level.
+Segments from the same song are never shared between training and test sets.
+
